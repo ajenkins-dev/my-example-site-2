@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap Experiment 1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+  <style>
+    html,
+    body,
+    header,
+    #splash {
+      height: 100%;
+    }
+        
+    body {
+      position: relative;
+    }
+        
+    .spacer {
+      height: 10px;
+      width: 100%;
+      background-color: black;
+      margin: 40px 0;
+      display: block;
+    }
+    
+    .spacer2 {
+      height: 60px;
+      display: block;
+    }
+        
+      </style>
+</head>
+
+<body data-spy="scroll" data-target="#navy">
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark" id="navy">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse collapse" id="nav1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="#top" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#welcome" class="nav-link">Welcome</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#story" class="nav-link">Story</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter-square"></i></a></li>
+        <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-facebook-square"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+        <div id="top" class="bg-dark py-5 text-light shadow mb-5">
+            <div class="container">
+              <h1 class="display-2">Our Amazing Website</h1>
+              <p class="lead">Thanks for visiting our super cool website about websites.</p>
+            </div>
+        </div>
+  
+
+      <div class="container">
+        <div id="welcome" class="row">
+          <div class="col-md-8">
+            <h1>Welcome To Our Page</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus corporis quia aperiam, molestias in cumque eius atque ipsa, ipsum, ad deserunt. Repudiandae assumenda soluta est iusto fugit! Praesentium, possimus!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quae mollitia consequuntur quibusdam saepe minima libero officia cupiditate. In amet reiciendis eius explicabo placeat animi magni maxime distinctio tempora totam.</p>
+            <a href="#bonus-content" data-toggle="collapse" class="btn btn-primary btn-lg">Learn More</a>
+  
+            <div class="collapse mt-3" id="bonus-content">
+              <h3>Hidden Content!</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum excepturi animi dignissimos qui libero. Magnam saepe, ratione exercitationem iure, veritatis cum iusto necessitatibus voluptatibus eveniet explicabo aliquid amet excepturi tenetur.</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, veritatis quod. Facere distinctio explicabo officia, rerum illo cumque perferendis quasi nihil perspiciatis recusandae itaque optio molestias, illum dolore laboriosam nisi!</p>
+            </div>
+          </div>
+          <div class="col-md-4 small">
+            <div class="alert alert-warning">We recently updated our entire site. Check it out!</div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quae mollitia consequuntur quibusdam saepe minima libero officia cupiditate. In amet reiciendis eius explicabo placeat animi magni maxime distinctio tempora totam.</p>
+            <button class="btn btn-outline-success" data-toggle="modal" data-target="#contact-us">Contact Us</button>
+            <div class="modal fade" id="contact-us" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Hello world!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade col-md-4" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../../mainplaysite/images/animals/cat.jpg" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../mainplaysite/images/animals/life-on-the-tracks.jpg" class="img-fluid" alt="Responsive image">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../mainplaysite/images/Alex The Lion Logo.png" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+    
+              <div class="accordion mt-3 col-md-8 small" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Collapsible Group Item #1
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="border-top my-5 py-4">
+        <p class="small text-muted text-center">&copy; 2020 Our Site</p>
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+      <script>
+        $('body').scrollspy({
+          target: '#navy'
+        })
+        $("#navy ul li a[href^='#']").on('click', function (e) {
+          console.log(e);
+          e.preventDefault();
+          let hash = this.hash;
+          console.log($(hash).offset().top);
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 1000, function () {
+            window.location.hash = hash;
+          })
+        })
+      </script>
+</body>
+</html>

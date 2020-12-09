@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'Manifold CF';
+  src: url('ManifoldCF-Bold.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-Bold.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-Bold.svg#acc0ba8c9ddbb9b0f7d7f456b3ee5ad4') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Bold';
+  src: url('ManifoldCF-BoldOblique.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-BoldOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-BoldOblique.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-BoldOblique.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-BoldOblique.svg#875c2bcda5d711868f7b0fdbf028006c') format('svg'); /* Legacy iOS */
+       
+  font-style:   oblique;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Demi Bold';
+  src: url('ManifoldCF-DemiBold.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-DemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-DemiBold.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-DemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-DemiBold.svg#5553a5e8454005d6bad4ebe6a237c93c') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Demi Bold';
+  src: url('ManifoldCF-DemiBoldOblique.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-DemiBoldOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-DemiBoldOblique.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-DemiBoldOblique.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-DemiBoldOblique.svg#c5d31ec9645ff54e23c7327a09cb9115') format('svg'); /* Legacy iOS */
+       
+  font-style:   oblique;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Extra Bold';
+  src: url('ManifoldCF-ExtraBold.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-ExtraBold.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-ExtraBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-ExtraBold.svg#40821318c0a429c7463f5fe7e4885d94') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Extra Bold';
+  src: url('ManifoldCF-ExtraBoldOblique.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-ExtraBoldOblique.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-ExtraBoldOblique.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-ExtraBoldOblique.svg#3f0b24508d7214c3dfee52139ba73a25') format('svg'); /* Legacy iOS */
+       
+  font-style:   oblique;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Light';
+  src: url('ManifoldCF-Light.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-Light.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-Light.svg#59c5b624ac120c8b20763cc7cb25585a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Manifold CF Light';
+  src: url('ManifoldCF-LightOblique.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-LightOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-LightOblique.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-LightOblique.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-LightOblique.svg#91967a94008d783a0f92e9bf2caed4bd') format('svg'); /* Legacy iOS */
+       
+  font-style:   oblique;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Manifold CF';
+  src: url('ManifoldCF-Regular.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-Regular.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-Regular.svg#7961c55476f36afb3b2ba5d3dc375565') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Manifold CF';
+  src: url('ManifoldCF-RegularOblique.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCF-RegularOblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCF-RegularOblique.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCF-RegularOblique.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCF-RegularOblique.svg#0463d3a9f9d04a01c614d6b3f86cea93') format('svg'); /* Legacy iOS */
+       
+  font-style:   oblique;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Manifold CF Extended';
+  src: url('ManifoldCFExtended-Bold.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCFExtended-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCFExtended-Bold.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCFExtended-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCFExtended-Bold.svg#7e069a90e29aab3a3f1bbb628c39caf5') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Extended Demi Bold';
+  src: url('ManifoldCFExtended-DemiBold.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCFExtended-DemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCFExtended-DemiBold.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCFExtended-DemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCFExtended-DemiBold.svg#5bc8678aaa705c619552f26599f3aed6') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Extended Extra Bold';
+  src: url('ManifoldCFExtended-ExtraBold.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCFExtended-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCFExtended-ExtraBold.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCFExtended-ExtraBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCFExtended-ExtraBold.svg#cb4aa0292cc551d3c3c40e9a6c9147c4') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Manifold CF Extended Light';
+  src: url('ManifoldCFExtended-Light.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCFExtended-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCFExtended-Light.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCFExtended-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCFExtended-Light.svg#6e35ea34f83b4c7e2a4038c0bc62ca8a') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  200;
+}
+
+@font-face {
+  font-family: 'Manifold CF Extended';
+  src: url('ManifoldCFExtended-Regular.eot'); /* IE9 Compat Modes */
+  src: url('ManifoldCFExtended-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ManifoldCFExtended-Regular.woff') format('woff'), /* Modern Browsers */
+       url('ManifoldCFExtended-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ManifoldCFExtended-Regular.svg#2d53a30b311a8f8e56bcfd29ef1b4361') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
